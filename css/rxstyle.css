@@ -1,0 +1,96 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+}
+
+.starting {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+}
+
+body {
+  margin-top: 55px;
+}
+
+.order-placed, .order-received {
+  padding-top: 3%;
+}
+
+.order-placed h5, .order-placed i, .order-placed h6 {
+
+}
+
+.order-placed h6, .order-placed i {
+  letter-spacing: 4px;
+}
+
+.order-placed i {
+  font-stretch: extra-expanded;
+}
+
+.order-placed h5 {
+  padding-top: 10%;
+}
+
+.order-received {
+  padding-top: 3%;
+}
+
+.barcode-font, .box-font {
+  font-size: 100px;
+}
+
+.barcode-font {
+  transform: scale(1.2,1);
+}
+
+.finish-btn {
+  color: white;
+  border-radius: 10px;
+  background-color: black;
+  padding: 8px 96px;
+}
+
+.finishing {
+  position: fixed;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  padding-top: 4%;
+  bottom: 20px;
+}
+
+.finishing > button {
+  align-self: flex-end;
+}
+
+/*
+
+<link rel="stylesheet" href="css/fontawesome.css">
+<link rel="stylesheet" href="css/fontawesome.min.css">
+<link rel="stylesheet" href="css/all.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/solid.css">
+<link rel="stylesheet" href="css/solid.min.css">
+<link rel="stylesheet" href="css/brands.css">
+<link rel="stylesheet" href="css/brands.min.css">
+<link rel="stylesheet" href="css/regular.css">
+<link rel="stylesheet" href="css/regular.min.css">
+<link rel="stylesheet" href="css/svg-with-js.css">
+<link rel="stylesheet" href="css/svg-with-js.min.css">
+<link rel="stylesheet" href="css/v4-shims.css">
+<link rel="stylesheet" href="css/v4-shims.min.css">
+
+
+*/
